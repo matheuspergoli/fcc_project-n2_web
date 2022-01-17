@@ -42,3 +42,7 @@ body::before {
 header {
     text-align: center;
 }
+
+#survey-form {
+    background-color: var(--color-darkblue);
+}
