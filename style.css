@@ -39,10 +39,32 @@ body::before {
     background-repeat: no-repeat;
 }
 
+main {
+    width: 650px;
+}
+
 header {
     text-align: center;
 }
 
 #survey-form {
-    background-color: var(--color-darkblue);
+    padding: 40px;
+    border-radius: 5px;
+    background-color: var(--color-darkblue-alpha);
+}
+
+input {
+    width: 100%;
+    height: 35px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    font-size: 15px;
+}
+
+label {
+    font-size: 20px;
 }
